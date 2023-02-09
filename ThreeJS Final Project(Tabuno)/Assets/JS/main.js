@@ -1,4 +1,4 @@
-console.log ('IM CONNECTED MAGGOT!');
+
 
 import * as THREE from './three.module.js';
 import {OrbitControls} from './OrbitControls.js';
@@ -381,9 +381,9 @@ scene.add(  body4 );
 
 
 //Camera
-camera.position.x= 35;
-camera.position.y = 120;
-camera.position.z = 60;
+camera.position.x= -20;
+camera.position.y = 60;
+camera.position.z = 100;
 
 //animate
 function animate() {
